@@ -15,7 +15,7 @@ const num2 = "8";
 console.log(num1 + num2);
 
 console.log(10 * 5);
-console.log(11 / 2);
+console.log(11 / 2);res
 console.log(6 ** 2);
 
 console.log(5 % 2);

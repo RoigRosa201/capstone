@@ -1,0 +1,32 @@
+h1 {
+  font-size: 20pt;
+  color: blue;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  font-size: 10pt;
+  width: 200px;
+  border-radius: 3px;
+  background: lightgrey;
+}
+
+.orangeButton {
+  background: orange;
+}
+
+header {
+  padding: 20px 100px;
+  background: lightblue;
+}
+nav li {
+  display: inline-block;
+  padding: 11px 11px 11px 0;
+}
+li {
+  display: block;
+  font-size: 15pt;
+}
+.logo {
+  width: 30px;
+}
