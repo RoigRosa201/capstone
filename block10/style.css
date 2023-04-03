@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+main {
+  background: no-repeat center/cover url('bg.png');
+  flex: 1;
+}
+footer {
+  background: blueviolet;
+}
+header {
+  background: lightblue;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+li {
+  list-style: none;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 1s;
+}
+li::before {
+  content: "»";
+}
+
+li:hover {
+  background: lightcoral;
+  transition: all 1s;
+}
+
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+}
+.paragraphs p {
+  flex: 0;
+}
+.paragraphs p:nth-child(odd) {
+  background: brown;
+}
+
+.paragraphs p:hover {
+  background: pink;
+}
+
+
+@media (min-width: 1000px) {
+  .paragraphs {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .paragraphs p {
+    flex: 1 1 250px;
+  }
+}
+figure {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+figcaption {
+  background: white;
+  text-align: center;
+}
