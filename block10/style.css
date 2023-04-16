@@ -74,3 +74,11 @@ figcaption {
   background: white;
   text-align: center;
 }
+
+@media (max-width: 700px) {
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+}

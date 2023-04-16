@@ -1,0 +1,38 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+input, button {
+  width: 20%;
+  height: 40px;
+  font-size: 15px;
+  margin: 10px;
+}
+input {
+  background: tan;
+  border-radius: 1px;
+}
+input:focus {
+  outline: 1px dashed red;
+}
+button {
+  width: 20.7%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px 200px;
+  gap: 10px;
+  place-items: center;
+}
+
+.block {
+  width: 50px;
+  height: 50px;
+  background: cyan;
+  border: 1px solid black;
+}
+.block1 {
+  place-self: end;
+}
