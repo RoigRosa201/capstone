@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+}
+header {
+  padding: 10px;
+  background: lightblue;
+  display: flex;
+  justify-content: flex-end;
+}
+.links {
+  display: flex;
+  align-items: center;
+}
+.links li {
+  list-style: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.links li:hover {
+  background: purple;
+}
+
+.hidden {
+  display: none;
+}
+
+#products {
+  position: relative;
+}
+.menu {
+  position: absolute;
+  background: lightgrey;
+  border: 1px solid black;
+  top: 33px;
+  left: -14px;
+}
+
+.product {
+  border: 1px solid black;
+  width: 250px;
+}
+.product img {
+  width: 100px;
+}
