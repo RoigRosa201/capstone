@@ -1,0 +1,11 @@
+.list-container {
+    color: gray;
+}
+
+.list-item {
+    list-style-type: none;
+    padding: 4px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: inherit
+}
