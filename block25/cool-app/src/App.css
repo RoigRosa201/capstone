@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: lightblue
+}
+
+header {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  padding: 10px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.product {
+  padding: 10px;
+  border: 1px solid darkgrey;
+  width: 200px;
+}
+.product img {
+  height: 100px;
+}
